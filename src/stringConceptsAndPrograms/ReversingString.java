@@ -2,7 +2,7 @@ package stringConceptsAndPrograms;
 
 import java.util.Scanner;
 
-public class ReversingString {
+public class reversingString {
 	static String value;
 	static String rev="";
 
@@ -21,7 +21,7 @@ public class ReversingString {
 	}	
 
 	public static void main(String[] args) {
-		ReversingString string = new ReversingString();
+		reversingString string = new reversingString();
 		string.reversingString(value);
 	}
 

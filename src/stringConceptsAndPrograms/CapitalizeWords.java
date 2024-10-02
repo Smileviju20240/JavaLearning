@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class CapitalizeWords {
+public class capitalizeWords {
 
 	public static void main(String[] args) {
 

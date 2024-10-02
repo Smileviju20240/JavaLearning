@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class PalindromeNumbers {
+public class palindromeNumbers {
 
 	public static void main(String[] args) {
 

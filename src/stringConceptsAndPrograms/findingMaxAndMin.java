@@ -1,4 +1,4 @@
-package arrayConceptsAndPrograms;
+package stringConceptsAndPrograms;
 
 public class findingMaxAndMin {
 

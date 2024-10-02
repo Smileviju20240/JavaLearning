@@ -1,5 +1,7 @@
 package stringConceptsAndPrograms;
 
+import java.util.Arrays;
+
 public class findingSecondHighestOfString {
 	static String temp;
 	public static void main(String[] args) {
@@ -25,6 +27,12 @@ public class findingSecondHighestOfString {
 			Arrays.sort(stringArray);
 			System.out.println(stringArray[stringArray.length-2]);
 			*/
+		    
+		    /*
+		    int[] arr = {12,23,17,24,10,15,20};
+		    Arrays.sort(arr);
+		    System.out.println(arr[arr.length-2]);
+		    */
 	} 
 		    
 }  

@@ -1,23 +1,30 @@
 package stringConceptsAndPrograms;
 
-public class LongestPrefixInStringOfArray {
+import java.util.Arrays;
+
+public class longestPrefixInStringOfArray {
 	
 	public void fetchingLongestPrefix(String[] strgs) {
 		
-		for(int i=0; i<strgs[0].length(); i++) {
-			for(int j=1; j<strgs.length; j++) {
-				if(strgs[j].length() <= i || strgs[0].charAt(i) != strgs[j].charAt(i)) {
-					System.out.print(strgs[0].substring(0,i));
-				}
-			}
+		String str1 = strgs[0];
+		String str2 = strgs[strgs.length-1];
+		int index=0;
+		
+		while(index < str1.length()) {
+			if(str1.charAt(index) == str2.charAt(index))
+				index++;
+			else
+				break;
 		}
+		System.out.println(str1.substring(0,index));
 		
 	}
 
 	public static void main(String[] args) {
 		
 		String[] strs = { "Vijay", "Vijaynath", "Vijayshil", "Vijire" };
-		LongestPrefixInStringOfArray fetch = new LongestPrefixInStringOfArray();
+		longestPrefixInStringOfArray fetch = new longestPrefixInStringOfArray();
+		Arrays.sort(strs);
 		fetch.fetchingLongestPrefix(strs);
 	}
 

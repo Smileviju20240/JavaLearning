@@ -2,7 +2,7 @@ package stringConceptsAndPrograms;
 
 import java.util.Scanner;
 
-public class ReversingWordsOfString {
+public class reversingWordsOfString {
 	static String value;
 	static String rev="";
 
@@ -20,7 +20,7 @@ public class ReversingWordsOfString {
 			}
 			System.out.print(" ");
 		}
-		
+		System.out.println(" ");
 		// reversing words and character of string
 		for(int i=words.length-1; i>=0; i--) {	
 			for(int j=words[i].length()-1; j>=0; j--) {
@@ -28,7 +28,7 @@ public class ReversingWordsOfString {
 			}
 			System.out.print(" ");
 		}
-		
+		System.out.println(" ");
 		// reversing words but keeping same character sequence 
 			for(int i=words.length-1; i>=0; i--) {
 				System.out.print(words[i]);
@@ -38,7 +38,7 @@ public class ReversingWordsOfString {
 	}	
 
 	public static void main(String[] args) {
-		ReversingWordsOfString string = new ReversingWordsOfString();
+		reversingWordsOfString string = new reversingWordsOfString();
 		string.reversingString(value);
 	}
 

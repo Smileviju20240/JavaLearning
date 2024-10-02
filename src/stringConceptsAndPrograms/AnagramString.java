@@ -2,7 +2,7 @@ package stringConceptsAndPrograms;
 
 import java.util.Arrays;
 
-public class AnagramString {
+public class anagramString {
 
 	public static void main(String[] args) {
 		
@@ -15,9 +15,10 @@ public class AnagramString {
 		Arrays.sort(arr1);
 		Arrays.sort(arr2);
 		
-		if(String.copyValueOf(arr1).equals(String.copyValueOf(arr2))) {
+		if(String.valueOf(arr1).equals(String.copyValueOf(arr2))) {
 			System.out.println("Anagram");
-		}
+		}else
+			System.out.println("Not anagram");
 
 	}
 
