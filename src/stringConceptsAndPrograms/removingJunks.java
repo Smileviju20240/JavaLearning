@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class removingJunks {
+public class RemovingJunks {
 
 	public static void main(String[] args) {
 		

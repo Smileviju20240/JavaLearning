@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class mergeCharsAlternativley {
+public class MergeCharsAlternativley {
 
 	public static void main(String[] args) {
 		

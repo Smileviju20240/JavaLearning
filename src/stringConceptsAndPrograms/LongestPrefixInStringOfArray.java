@@ -2,7 +2,7 @@ package stringConceptsAndPrograms;
 
 import java.util.Arrays;
 
-public class longestPrefixInStringOfArray {
+public class LongestPrefixInStringOfArray {
 	
 	public void fetchingLongestPrefix(String[] strgs) {
 		
@@ -23,7 +23,7 @@ public class longestPrefixInStringOfArray {
 	public static void main(String[] args) {
 		
 		String[] strs = { "Vijay", "Vijaynath", "Vijayshil", "Vijire" };
-		longestPrefixInStringOfArray fetch = new longestPrefixInStringOfArray();
+		LongestPrefixInStringOfArray fetch = new LongestPrefixInStringOfArray();
 		Arrays.sort(strs);
 		fetch.fetchingLongestPrefix(strs);
 	}

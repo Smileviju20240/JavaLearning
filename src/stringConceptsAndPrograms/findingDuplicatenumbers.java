@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class findingDuplicatenumbers {
+public class FindingDuplicatenumbers {
 
 	public static void main(String[] args) {
 

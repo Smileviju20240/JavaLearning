@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class countingMaxConsecutiveOne {
+public class CountingMaxConsecutiveOne {
 
 	public static void main(String[] args) {
 		

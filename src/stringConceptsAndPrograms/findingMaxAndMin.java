@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class findingMaxAndMin {
+public class FindingMaxAndMin {
 
 	public static void main(String[] args) {
 		

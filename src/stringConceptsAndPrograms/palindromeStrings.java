@@ -2,7 +2,7 @@ package stringConceptsAndPrograms;
 
 import java.util.Scanner;
 
-public class palindromeStrings {
+public class PalindromeStrings {
 	String rev = "";
 	static String value;
 	
@@ -19,10 +19,10 @@ public class palindromeStrings {
 
 	public static void main(String[] args) {
 		
-		palindromeStrings pal = new palindromeStrings();
+		PalindromeStrings pal = new PalindromeStrings();
 		String str = pal.verifyPalindromeString(value);
 		
-		if(str.equals(palindromeStrings.value)) {
+		if(str.equals(PalindromeStrings.value)) {
 			System.out.println("Yes");
 		}else {
 			System.out.println("No");

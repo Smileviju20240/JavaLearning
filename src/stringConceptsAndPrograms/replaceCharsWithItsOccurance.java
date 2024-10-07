@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class replaceCharsWithItsOccurance {
+public class ReplaceCharsWithItsOccurance {
 
 	public static void main(String[] args) {
 
@@ -15,5 +15,4 @@ public class replaceCharsWithItsOccurance {
 		}
 		System.out.println(str);
 	}
-
 }

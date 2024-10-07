@@ -3,7 +3,7 @@ package stringConceptsAndPrograms;
 import java.util.HashSet;
 import java.util.Set;
 
-public class missingCharactersInString {
+public class MissingCharactersInString {
 
 	public static void main(String[] args) {
 

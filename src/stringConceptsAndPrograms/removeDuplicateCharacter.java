@@ -3,7 +3,7 @@ package stringConceptsAndPrograms;
 import java.util.HashSet;
 import java.util.Set;
 
-public class removeDuplicateCharacter {
+public class RemoveDuplicateCharacter {
 
 	public static void main(String[] args) {
 		

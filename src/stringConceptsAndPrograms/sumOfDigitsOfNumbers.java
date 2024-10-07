@@ -1,6 +1,6 @@
 package stringConceptsAndPrograms;
 
-public class sumOfDigitsOfNumbers {
+public class SumOfDigitsOfNumbers {
 
 	public static void main(String[] args) {
 
