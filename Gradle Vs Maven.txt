@@ -1,0 +1,48 @@
+Build, Build Tool and Build Process : 
+1. Set of source code which is compiled and ready to test and deploy is nothing but Build.
+2. To automate the build, we use Build automation tool like Ant, Maven, Gradle etc. and can use VS code, IntelliJ, Eclipse as editor.
+3. Build process :  Build process is a process of converting project source code into executable file. 
+                    Downloading and adding required dependencies to project Build path -> compile the source code and execute tests -> package it in Jar/War
+
+
+Gradle Build Tool :
+
+1. An Build automation tool.
+2. It's advanced than Maven and written in Groovy / Kotlin language.
+3. Implementing language - C++, JAVA, Kotlin, Scala, Swift
+4. Testing framework - Junit, TestNg, etc.
+4. build.gradle of Gradle == pom.xml of maven
+6. Gradle wrapper provide the graddle run time using jar and properties file without installing gradle in other system.
+
+
+https://docs.gradle.org/current/userguide/userguide.html
+https://gradle.org/maven-vs-gradle/
+
+
+                Maven                                                               Gradle
+1. Older than Gradle                                           1. Newer and advanced than Maven
+2. language - C/C++, JAVA, Kotlin, Scala                       2. language - JAVA, C#, Ruby
+                              ****************User Compatibilty********************
+3. Uses pom.Xml file in xml language for build script          3. Uses build.gradle file and in Groovy language for build script
+4. CLI(To run the project) - mvn                               4. CLI(To run the project) - gradlew (OR) gradle run
+5. Execute requested task, so slower performance               5. Execute all build life cycle phases, so faster performance than Maven
+
+                                                                  plugins{
+                                                                   id 'java'
+                                                                  }
+
+                                                                  group ''
+                                                                  version ''
+                                                                  
+                                                                  repositories{
+                                                                     mavenCentral()
+                                                                  }
+                                                                  
+                                                                  dependencies{
+                                                                  }
+
+
+
+
+
+   
