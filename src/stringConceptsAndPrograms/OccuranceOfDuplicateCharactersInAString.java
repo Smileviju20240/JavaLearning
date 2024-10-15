@@ -1,4 +1,4 @@
-package collectionConcepts;
+package stringConceptsAndPrograms;
 
 import java.util.ArrayList;
 import java.util.Arrays;
